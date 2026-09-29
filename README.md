@@ -23,3 +23,6 @@ Ensure you have the required Python libraries installed:
 2. **Bitwise Operations**: A loop iterates through the 8 bits (0 to 7). For each bit `i`, the image is bitwise right-shifted by `i` and logically AND-ed with `1` to extract the exact bit plane.
 3. **Scaling**: The extracted bit values (0 or 1) are multiplied by 255 to map them to valid visible pixel values for grayscale rendering.
 4. **Visualization**: Matplotlib is used to plot the original image alongside all 8 individual bit planes in a grid format, demonstrating how higher bit planes contain the most visual information.
+
+#OUTPUT
+<img width="1071" height="990" alt="image" src="https://github.com/user-attachments/assets/4c8387e4-c272-4f04-8e72-a90321bd7105" />
